@@ -1,0 +1,50 @@
+{% load static %}
+<!-- CSS CUSTOM -->
+
+<head>
+    <link rel="stylesheet" href="{% static 'css/topbar.css' %}">
+      <style>
+  body {
+    margin: 0;
+    background-color: black;
+  }
+  h1 {
+      color: #b40000;
+      font-family: Haettenschweiler;
+      font-size: 100;
+      text-align: center;
+
+  }
+  p {
+    color: white;
+    font-family: Haettenschweiler;
+    font-size: 42;
+    text-align: center; 
+  }
+  p .magenta {
+      color: magenta;
+      font-size: 60;
+  }
+  p .cyan {
+      color: cyan;
+      font-size: 60;
+  }
+      </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="/home">Home</a>
+        <a href="/download">Download</a>
+        <a href="/contribute">Contribute</a>
+
+        <h1>Tha<span class="newcolor">Box</span></h1> 
+      </div>
+    <div class="about">
+        <h1>About</h1>
+        <p><span class="magenta">Tha</span><span class="cyan">Box</span> is a "retro-modern" chat application
+            <br>where users can join to chat-rooms.
+            <br>Its easy, fun and social.
+            
+        </p> 
+    </div>
+</body>
