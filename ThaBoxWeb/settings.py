@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-gpre1nkoa)2_3m7g$hh9lzgn=+pja03c@dywyaw$w8jj!^2n%&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["thabox.asmul.net"]
+ALLOWED_HOSTS = ["thabox.asmul.net", "127.0.0.1"]
 
 APPS_DIR = True
 
