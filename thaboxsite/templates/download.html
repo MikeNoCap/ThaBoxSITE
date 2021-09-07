@@ -3,11 +3,33 @@
 
 <head>
   <link rel="stylesheet" href="{% static 'css/topbar.css' %}">
+  <link rel="stylesheet" href="{% static 'css/download-buttons.css' %}">
     <style>
 body {
   margin: 0;
   background-color: black;
 }
+h1 {
+      color: #b40000;
+      font-family: Haettenschweiler;
+      font-size: 100;
+      text-align: center;
+
+  }
+  p {
+    color: white;
+    font-family: Haettenschweiler;
+    font-size: 42;
+    text-align: center; 
+  }
+  h1 .magenta {
+      color: magenta;
+      font-size: 100;
+  }
+  h1 .cyan {
+      color: cyan;
+      font-size: 100;
+  }
     </style>
 </head>
 <body>
@@ -18,4 +40,15 @@ body {
 
       <h1>Tha<span class="newcolor">Box</span></h1> 
     </div>
+  <div class="installing ThaBox">
+    <h1>Installing <span class="magenta">Tha</span><span class="cyan">Box</span></h1>
+    <p>ThaBox is currently only avalivle for windows 64-bit.</p>
+    <div class="vn-blue" style="text-align: center;">
+      <a href="{% static 'installers\ThaBox-windows-installer' %}" download class="btn-wrap"><p>Download for Windows <span style="color: rgb(255, 254, 210);">(64-bit)</span></p></a>
+      <a href="#" class="btn-wrap"><p>Download for Windows <span style="color: rgb(255, 254, 210);">(32-bit)</span></p></a>
+    </div>
+    
+
+    
+
 </body>
